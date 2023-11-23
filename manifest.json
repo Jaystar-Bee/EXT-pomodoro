@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "John Pomodoro",
+  "version": "1.0.0",
+  "description": "You need to get focused on what's important. This extension will help you to do that.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "John Pomodoro",
+    "default_popup": "./popup/popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "24": "icon.png",
+      "32": "icon.png"
+    }
+  },
+  "options_page": "./options/options.html"
+}
